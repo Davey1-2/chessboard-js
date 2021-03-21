@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+.chessboardClass {
+    border-spacing: 0px;
+    border-collapse: separate;
+    border: solid;
+
+}
+
+.black {
+    background: black;
+
+}
+
+ .white {
+    background: white;
+}
+td
+{
+    height: 50px;
+    width: 50px;
+}
+
+
